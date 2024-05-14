@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Cozy Apartment",
+    "segment_name": "Residential",
+    "image": "https://i.ibb.co/wrFDg0w/1.jpg",
+    "description": "Charming apartment with modern amenities, perfect for urban living.",
+    "price": "$2000 per month",
+    "status": "rent",
+    "area": "800 sq ft",
+    "location": "City Center",
+    "facilities": ["fully furnished", "balcony", "gym access"]
+  },
+  {
+    "id": 2,
+    "estate_title": "Suburban Home",
+    "segment_name": "Residential",
+    "image": "https://i.ibb.co/Tv6Ky9W/2.jpg",
+    "description": "Spacious home in a peaceful suburban neighborhood, ideal for families.",
+    "price": "$3000 per month",
+    "status": "rent",
+    "area": "2500 sq ft",
+    "location": "Quiet Suburbia",
+    "facilities": ["backyard", "garage", "modern kitchen"]
+  },
+  {
+    "id": 3,
+    "estate_title": "Luxury Condo",
+    "segment_name": "Residential",
+    "image": "https://i.ibb.co/w7XTFSH/3.jpg",
+    "description": "Elegant condo with breathtaking views and premium amenities.",
+    "price": "$5000 per month",
+    "status": "rent",
+    "area": "1500 sq ft",
+    "location": "Highrise District",
+    "facilities": ["swimming pool", "concierge service", "private parking"]
+  },
+  {
+    "id": 4,
+    "estate_title": "Lakefront Retreat",
+    "segment_name": "Residential",
+    "image": "https://i.ibb.co/WtN4PVN/6.jpg",
+    "description": "Tranquil retreat with stunning lake views and serene surroundings.",
+    "price": "$1,200,000",
+    "status": "sale",
+    "area": "4000 sq ft",
+    "location": "Lakeside Community",
+    "facilities": ["private dock", "spacious deck", "fire pit"]
+  }
+]

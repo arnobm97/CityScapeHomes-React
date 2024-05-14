@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "keep-react/css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nav-col{
+    background-color: #2854a1;
+  }
+
+.active{
+  color: black !important;
+  background-color: white !important;
+  
+}
+.foot-col{
+  background-color: #22498e;
+}
+.copyright-col{
+ color:  #a1b5d6;
+}
+.banner{
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(https://listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2019/05/Stocksy_txpbfa0785eO7M200_Medium_832542-1.jpg
+  );
+  background-size: cover;
+
+  background-attachment: scroll;
+  background-position-x:50%;
+  background-position-y:50%;
+}
+.tooltip-container {
+  position: relative;
+}
+
+ .tooltip {
+  visibility: hidden;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top:78px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+}
